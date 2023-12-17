@@ -1,0 +1,184 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 14px;
+    background-color: #c7baba;
+}
+
+.container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.title-1{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+/*Header*/
+
+.header{
+    padding-top: 46px;
+    background-color: #dfd4d4;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+}
+
+.logo{
+    position: relative;
+    padding: 0 12px 3px 0;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 32px;
+    color: #000;
+}
+
+
+
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-button{
+    display: none;
+}
+
+
+.nav-link{
+    color: #000;
+}
+
+.nav-link.active{
+    color: #606060; 
+}
+.nav-link:hover{
+    color: rgb(120, 44, 155);
+    transition: 0.45s;
+}
+/*Header content*/
+
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    padding: 0px 0px 20px 0px;
+}
+
+.header-content{
+    max-width: 500px;
+    margin-top: 124px;
+}
+
+.header-heading{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.header-content p{
+    line-height: 2;
+}
+
+
+.header-img img{
+    max-width: 494px;
+}
+
+/*Service*/
+
+.services{
+    padding: 90px 0;
+}
+
+.services-row{
+    display: flex;
+    row-gap: 60px;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    padding: 0px 0px 20px 0px;
+}
+
+.services-card{
+    flex: 1 1 0;
+    min-width: 250px;
+}
+
+.services-card-img{
+    margin-bottom: 30px;
+}
+
+.services-card-title{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.services-card p{
+    line-height: 2;
+}
+
+/*Portfolio*/
+
+.portfolio{
+    font-size: 18px;
+    padding: 90px 0;
+    background-color: #dfd4d4;
+}
+
+.portfolio-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.education-skills{
+    text-align: left;
+}
+
+.project-education-skills{
+    margin-bottom: 40px;
+}
+
+.project-education-skills span{
+    font-weight: 700;
+}
+
+/*Footer*/
+
+.contacts{
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-title{
+    margin-bottom: 40px;
+}
+
+.contacts-content{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contacts-social{
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contacts-footer{
+    color: #828282;
+}
